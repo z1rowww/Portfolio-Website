@@ -1,0 +1,126 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+    <style>
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        body {
+            background-image: url('https://i.pinimg.com/564x/41/93/ee/4193ee2599c1ca4ffcc73f1788577acf.jpg');
+            background-size: cover;
+            background-position: center;
+            backdrop-filter: blur(10px);
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #f2f2f2; /* Колір тексту, який ви можете змінити за своїм смаком */
+            min-height: 100vh;
+            position: relative;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        nav {
+            margin-left: auto;
+        }
+
+        nav button {
+            margin-left: 10px;
+            padding: 8px 12px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-size: 14px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav button:hover {
+            background-color: #555;
+        }
+
+        main {
+            padding: 20px;
+            backdrop-filter: blur(5px);
+            padding-bottom: 50px; /* Додано простір для футера */
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+
+        footer div {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        footer div a {
+            margin: 0 10px;
+        }
+
+        h1, h2, p {
+            color: #f2f2f2; /* Колір тексту, який ви можете змінити за своїм смаком */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://i.pinimg.com/564x/84/fe/56/84fe565a8cfe7627b279d439955ad0a6.jpg" alt="My Logo" style="border-radius: 50%; width: 50px; height: 50px;">
+        <h1 style="margin-left: 10px;">My Portfolio</h1>
+        <nav>
+            <button>About Me</button>
+            <button>Projects</button>
+            <button>Contact</button>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Hello, I'm Zhenya, I'm 14 years old. I'm starting to learn front-end development and I'm interested in creating websites. My English proficiency level is B1.</p>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <p>I don't have any projects yet.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Phone: +1234 <br>Telegram: <a href="https://t.me/shadowzxqw">@shadowzxqw</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://t.me/shadowzxqw" target="_blank"><img src="https://static-00.iconduck.com/assets.00/telegram-icon-1024x1024-bkzf373i.png" alt="Telegram" style="width: 50px; height: 50px;"></a>
+            <a href="https://www.instagram.com/omgkeklol322/" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/018/910/691/original/instagram-mobile-app-logo-instagram-app-icon-ig-app-free-free-vector.jpg" alt="Instagram" style="width: 50px; height: 50px;"></a>
+        </div>
+    </footer>
+
+    <h1 style="text-align: center; margin-top: 50px; font-size: 2.5em;">Own <span class="own-portfolio">Portfolio</span></h1>
+</body>
+
+</html>
