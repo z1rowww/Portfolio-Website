@@ -13,7 +13,7 @@ This website aims to showcase my early understanding of web development. It cons
 ## Contact
 
 - **Email:** [zxcursed505](mailto:zxcursed505@gmail.com)
-- **GitHub:** [GitHub]([https://github.com/YourGitHubUsername](https://github.com/z1rowww))
+- **GitHub:** [GitHub](https://github.com/z1rowww]
 
 Feel free to reach out to me with any feedback, suggestions, or questions. I appreciate your time in exploring my initial project!
 
